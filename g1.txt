@@ -1,0 +1,14 @@
+ABC:
+a, b ;
+VALTOZOK:
+S, A, B, C, D; 
+SZABALYOK:
+S->AB
+S->CD
+S->CB
+S->SS
+A->BC
+A->a
+B->SC|b
+C->DD|b
+D->BA
